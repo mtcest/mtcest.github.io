@@ -16,8 +16,8 @@ $(function(){
 
 	if (window.innerWidth > 1086){
 		$("body").append(`<div class="signupNav">
-				<div class="snvph"><div id="suph">Scratch</div>&nbsp;username:</div>
-				<input type="text" class="snvin" id="scratchUsername">
+				<div class="snvph"><div id="suph"></div>&nbsp;username:</div>
+				<input type="text" class="snvin" id="Username">
 				<div class="snvph">Choose a password:</div>
 				<input type="password" class="snvin" id="password">
 				<div class="snvph">Repeat password:</div>
@@ -63,8 +63,8 @@ $(function(){
 		}
 		if (window.innerWidth > 1086){
 			$("body").append(`<div class="signupNav">
-					<div class="snvph"><div id="suph">Scratch</div>&nbsp;username:</div>
-					<input type="text" class="snvin" id="scratchUsername">
+					<div class="snvph"><div id="suph"></div>&nbsp;username:</div>
+					<input type="text" class="snvin" id="username">
 					<div class="snvph">Choose a password:</div>
 					<input type="password" class="snvin" id="password">
 					<div class="snvph">Repeat password:</div>

@@ -22,9 +22,9 @@ $(function(){
 				<input type="password" class="snvin" id="password">
 				<div class="snvph">Repeat password:</div>
 				<input type="password" class="snvin" id="passwordRepetition">
-				<div class="snvbtn">Sign up for Mattcoin</div>
-				<div class="disclaimer">By clicking "Signup for Mattcoin" you agree to our
-				<a href="tos.html">terms of service</a> and are aware of the mattcoin
+				<div class="snvbtn">Sign up</div>
+				<div class="disclaimer">By clicking "Signup" you agree to our
+				<a href="tos.html">terms of service</a> and are aware of the
 				account requirements (<a href="requirements.html">see here</a>).</div>
 			</div>`)
 		$(".footer").attr("id", "normalFooter")
@@ -69,9 +69,9 @@ $(function(){
 					<input type="password" class="snvin" id="password">
 					<div class="snvph">Repeat password:</div>
 					<input type="password" class="snvin" id="passwordRepetition">
-					<div class="snvbtn">Sign up for Mattcoin</div>
-					<div class="disclaimer">By clicking "Signup for Mattcoin" you agree to our
-					<a href="tos.html">terms of service</a> and are aware of the mattcoin
+					<div class="snvbtn">Sign up</div>
+					<div class="disclaimer">By clicking "Signup" you agree to our
+					<a href="tos.html">terms of service</a> and are aware of the
 					account requirements (<a href="requirements.html">see here</a>).</div>
 				</div>`)
 			$(".footer").attr("id", "normalFooter")

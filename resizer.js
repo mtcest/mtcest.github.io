@@ -10,7 +10,7 @@ $(function(){
 		<div class="nvbtn" id="signup">signup</div>`)
 
 	}else{
-		$(".stockHeader").append("<img class='mobileStack' src='assets/mobileStack.svg' onClick=""></img>")
+		$(".stockHeader").append("<img class='mobileStack' src='assets/mobileStack.svg' onClick=''></img>")
 
 	}
 
@@ -58,7 +58,7 @@ $(function(){
 		}else{
 			if ($(".nvbtn").length != 0){
 				$(".nvbtn").remove()
-				$(".stockHeader").append("<img class='mobileStack' src='assets/mobileStack.svg' onClick=""></img>")
+				$(".stockHeader").append("<img class='mobileStack' src='assets/mobileStack.svg' onClick=''></img>")
 			}
 		}
 		if (window.innerWidth > 1086){

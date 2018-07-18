@@ -231,7 +231,9 @@ a:link{
 }
 
 #mobileFooter{
-	top: calc(50% - 50px);
+	top: calc(140px + 25%);
+	margin-bottom: 120px;
+	margin-top: 20px;
 	left: calc(50% - 280px);
 	text-align: center;
 }
@@ -251,7 +253,9 @@ a:link{
 }
 
 #mmFooter{
-	top: calc(50% - 40px);
+	top: calc(140px + 25%);
+	margin-bottom: 120px;
+	margin-top: 20px;
 	left: calc(0% + 8px);
 	text-align: center;
 }

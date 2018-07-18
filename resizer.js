@@ -10,21 +10,21 @@ $(function(){
 		<div class="nvbtn" id="signup">signup</div>`)
 
 	}else{
-		$(".stockHeader").append("<img class='mobileStack' src='assets/mobileStack.svg' onClick=''></img>")
+		$(".stockHeader").append("<img class='mobileStack' src='assets/mobileStack.svg'></img>")
 
 	}
 
 	if (window.innerWidth > 1086){
 		$("body").append(`<div class="signupNav">
-				<div class="snvph"><div id="suph"></div>&nbsp;username:</div>
-				<input type="text" class="snvin" id="Username">
+				<div class="snvph"><div id="suph">Scratch</div>&nbsp;username:</div>
+				<input type="text" class="snvin" id="scratchUsername">
 				<div class="snvph">Choose a password:</div>
 				<input type="password" class="snvin" id="password">
 				<div class="snvph">Repeat password:</div>
 				<input type="password" class="snvin" id="passwordRepetition">
-				<div class="snvbtn">Sign up</div>
-				<div class="disclaimer">By clicking "Signup" you agree to our
-				<a href="tos.html">terms of service</a> and are aware of the
+				<div class="snvbtn">Sign up for Mattcoin</div>
+				<div class="disclaimer">By clicking "Signup for Mattcoin" you agree to our
+				<a href="tos.html">terms of service</a> and are aware of the mattcoin
 				account requirements (<a href="requirements.html">see here</a>).</div>
 			</div>`)
 		$(".footer").attr("id", "normalFooter")
@@ -58,20 +58,20 @@ $(function(){
 		}else{
 			if ($(".nvbtn").length != 0){
 				$(".nvbtn").remove()
-				$(".stockHeader").append("<img class='mobileStack' src='assets/mobileStack.svg' onClick=''></img>")
+				$(".stockHeader").append("<img class='mobileStack' src='assets/mobileStack.svg'></img>")
 			}
 		}
 		if (window.innerWidth > 1086){
 			$("body").append(`<div class="signupNav">
-					<div class="snvph"><div id="suph"></div>&nbsp;username:</div>
-					<input type="text" class="snvin" id="username">
+					<div class="snvph"><div id="suph">Scratch</div>&nbsp;username:</div>
+					<input type="text" class="snvin" id="scratchUsername">
 					<div class="snvph">Choose a password:</div>
 					<input type="password" class="snvin" id="password">
 					<div class="snvph">Repeat password:</div>
 					<input type="password" class="snvin" id="passwordRepetition">
-					<div class="snvbtn">Sign up</div>
-					<div class="disclaimer">By clicking "Signup" you agree to our
-					<a href="tos.html">terms of service</a> and are aware of the
+					<div class="snvbtn">Sign up for Mattcoin</div>
+					<div class="disclaimer">By clicking "Signup for Mattcoin" you agree to our
+					<a href="tos.html">terms of service</a> and are aware of the mattcoin
 					account requirements (<a href="requirements.html">see here</a>).</div>
 				</div>`)
 			$(".footer").attr("id", "normalFooter")
